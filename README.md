@@ -1,7 +1,7 @@
 # # 🎓 Student Career & Job Predictor 
 
 ## 📌 Overview
-A Machine Learning web application built with **Streamlit** that predicts whether a student has a **part-time job** using a Support Vector Machine 
+A Machine Learning web application built with **Streamlit** that predicts whether a student has a **part-time job** 
 
 The model is dynamically trained inside the app using student academic and behavioral features.
 
@@ -10,7 +10,7 @@ The application provides:
 * Loads student dataset
 * Performs preprocessing (encoding + scaling)
 * Splits data into training and testing sets
-* Trains an SVM classifier
+* Trains an Xgboost
 * Displays model accuracy
 * Allows manual prediction for a single student
 
